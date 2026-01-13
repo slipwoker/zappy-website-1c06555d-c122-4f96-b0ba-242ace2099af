@@ -1,57 +1,47 @@
-# מרחב כרמלים — Generative Engine Optimization Map
-
-> A תיירות וטיולים business.
+# Business — Generative Engine Optimization Map
 
 ---
 
 ## Pages
 
 ### דף הבית
-https://-1c06555d.zappy5.app
+https://example.com
 חוויות טבע ייחודיות באזור הכרמל: טיולי עששיות, חוף דור נחשולים וביקור בזכרון יעקב. הזמינו עכשיו!
 
 ### הטיולים שלנו
-https://-1c06555d.zappy5.app/tours
+https://example.com/tours
 גלו את מגוון הטיולים המודרכים שלנו: טיולי עששיות בכרמל, סיורים בחוף דור נחשולים וביקורים בזכרון יעקב. הזמינו עכשיו!
 
 ### אודות
-https://-1c06555d.zappy5.app/about
+https://example.com/about
 הכירו את הצוות המקצועי שמאחורי חוויות הטבע הייחודיות באזור הכרמל. מדריכים מנוסים עם אהבה לטבע ולאזור.
 
 ### צור קשר
-https://-1c06555d.zappy5.app/contact
+https://example.com/contact
 צרו קשר עם מרחב כרמלים והזמינו את הטיול הבא שלכם. טיולי עששיות בכרמל, סיורים בחוף דור נחשולים וביקורים בזכרון יעקב.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://-1c06555d.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://-1c06555d.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://-1c06555d.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About מרחב כרמלים
-מרחב כרמלים is a business in the תיירות וטיולים industry.
-
-## Target Audience
-משפחות, זוגות ומטיילים המחפשים חוויות טבע ותרבות באזור הכרמל
-
-## Industry
-תיירות וטיולים
-
+## About Business
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://-1c06555d.zappy5.app/sitemap.xml
-- **Robots.txt**: https://-1c06555d.zappy5.app/robots.txt
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
