@@ -1725,3 +1725,201 @@ body.accessibility-widget-visible ._access-menu {
     display: none !important;
   }
 }
+
+/* Added Component Styles */
+.carmelim-hero-section {
+  background: linear-gradient(135deg, #f7fafc 0%, #e6f7ed 100%);
+  padding: 80px 20px;
+  direction: rtl;
+  font-family: system-ui, sans-serif;
+}
+
+.carmelim-hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.carmelim-hero-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.carmelim-hero-text {
+  padding: 20px 0;
+}
+
+.carmelim-hero-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: var(--primary-color);
+  margin: 0 0 20px 0;
+  line-height: 1.2;
+}
+
+.carmelim-hero-subtitle {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--accent-color);
+  margin: 0 0 30px 0;
+}
+
+.carmelim-hero-description {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: var(--text-color);
+  margin: 0 0 40px 0;
+}
+
+.carmelim-hero-buttons {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.carmelim-btn {
+  padding: 14px 32px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit;
+}
+
+.carmelim-btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.carmelim-btn-primary:hover {
+  background-color: var(--accent-color);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(47, 133, 90, 0.2);
+}
+
+.carmelim-btn-secondary {
+  background-color: white;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
+
+.carmelim-btn-secondary:hover {
+  background-color: var(--primary-color);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(47, 133, 90, 0.2);
+}
+
+.carmelim-hero-image {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+.carmelim-hero-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.carmelim-hero-image:hover .carmelim-hero-img {
+  transform: scale(1.05);
+}
+
+.carmelim-features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.carmelim-feature-card {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.carmelim-feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.carmelim-feature-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+  border-radius: 50%;
+  margin-bottom: 24px;
+  color: white;
+}
+
+.carmelim-feature-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin: 0 0 16px 0;
+}
+
+.carmelim-feature-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text-color);
+  margin: 0;
+}
+
+@media (max-width: 968px) {
+  .carmelim-hero-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .carmelim-hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .carmelim-hero-subtitle {
+    font-size: 1.5rem;
+  }
+  
+  .carmelim-features-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 640px) {
+  .carmelim-hero-section {
+    padding: 60px 20px;
+  }
+  
+  .carmelim-hero-title {
+    font-size: 2rem;
+  }
+  
+  .carmelim-hero-subtitle {
+    font-size: 1.25rem;
+  }
+  
+  .carmelim-hero-description {
+    font-size: 1rem;
+  }
+  
+  .carmelim-hero-buttons {
+    flex-direction: column;
+  }
+  
+  .carmelim-btn {
+    width: 100%;
+  }
+}

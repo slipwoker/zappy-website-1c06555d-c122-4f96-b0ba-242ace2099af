@@ -1,6 +1,4 @@
-# מרחב כרמלים — Generative Engine Optimization Map
-
-> A תיירות וטיולים business.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -40,15 +38,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About מרחב כרמלים
-מרחב כרמלים is a business in the תיירות וטיולים industry.
-
-## Target Audience
-משפחות, זוגות ומטיילים המחפשים חוויות טבע ותרבות באזור הכרמל
-
-## Industry
-תיירות וטיולים
-
+## About Business
 ---
 
 # Additional Resources
